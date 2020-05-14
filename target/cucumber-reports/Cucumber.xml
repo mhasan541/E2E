@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.471946">
+    <testcase classname="Platform Application" name="Verify that user will create a report for one year" time="7.471946">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div/main/div/form/div[1]/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'MHASAN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)&#13;&#10;&#9;at PageObject.PlatfromPageObject.EnterPlatformCredential(PlatfromPageObject.java:230)&#13;&#10;&#9;at stepDefinitions.PlatfromStepDef.initialize_the_browser_and_navigate_to_platform_application_something(PlatfromStepDef.java:32)&#13;&#10;&#9;at ✽.Given Initialize the browser and Navigate to Platform Application &quot;https://tvm-ui.qa.platf0rm.605.nu/login?redirect=1&quot;(src/test/java/features/Platform.feature:45)&#13;&#10;">
+            <![CDATA[Given Initialize the browser and Navigate to Platform Application "https://tvm-ui.qa.platf0rm.605.nu/login?redirect=1".failed
+When user clicks on the Reports from the side line..........................skipped
+And user clicks on the new button on the Reports page.......................skipped
+And user should able to select all the selections for one year..............skipped
+Then verify user will able to run a report for year month...................skipped
+And Close the browser.......................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div/main/div/form/div[1]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'MHASAN', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.sendKeys(Unknown Source)
+	at PageObject.PlatfromPageObject.EnterPlatformCredential(PlatfromPageObject.java:230)
+	at stepDefinitions.PlatfromStepDef.initialize_the_browser_and_navigate_to_platform_application_something(PlatfromStepDef.java:32)
+	at ✽.Given Initialize the browser and Navigate to Platform Application "https://tvm-ui.qa.platf0rm.605.nu/login?redirect=1"(src/test/java/features/Platform.feature:45)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
